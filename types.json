@@ -1,0 +1,23 @@
+{
+  "FIX": {
+    "description": "correction de bug/typo/etc..."
+  },
+  "ADD": {
+    "description": "ajout de feature/assets/etc..."
+  },
+  "DEL": {
+    "description": "suppression de feature/assets/etc..."
+  },
+  "CLN": {
+    "description": "nettoyage de code"
+  },
+  "REF": {
+    "description": "refactorisation de code"
+  },
+  "TST": {
+    "description": "tests unitaire, fonctionnel, etc…"
+  },
+  "DOC": {
+    "description": "documentation"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "geolid-commits-cz",
+  "version": "2.0.0",
+  "description": "A commitizen adapter.",
+  "preferGlobal": true,
+  "main": "index.js",
+  "author": "Med Mahjbi",
+  "license": "ISC",
+  "dependencies": {
+    "conventional-commit-types": "^2.0.0",
+    "find-config": "^1.0.0",
+    "lodash.map": "^4.5.1",
+    "lodash.merge": "^4.6.0",
+    "longest": "^1.0.1",
+    "pad-right": "^0.2.2",
+    "right-pad": "^1.0.1",
+    "word-wrap": "^1.0.3"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "commitizen": "2.9.6",
+    "semantic-release": "^6.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "ava",
+    "commit": "git-cz"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  }
+}
